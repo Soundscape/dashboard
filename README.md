@@ -1,2 +1,2 @@
-# rss-reader
-RSS reader using Electron.JS and Angular
+# D3 101
+Learning D3 for data visualization

@@ -5,10 +5,7 @@ app.directive('menu', [function() {
     replace: true,
     restrict: 'E',
     templateUrl: 'shared/menu/index.html',
-    controller: ['$scope', '$mdSidenav', function($scope, $mdSidenav) {
-      $scope.toggleSidebar = function() {
-        $mdSidenav('sidebar').toggle();
-      }
+    controller: ['$scope', function($scope) {
     }]
   }
 }]);
